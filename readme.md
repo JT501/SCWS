@@ -33,5 +33,3 @@ composer require hallelujahbaby/scws
         'Scws' => Latrell\Scws\Facades\Scws::class,
     ]
 ```
-
-# SCWS
