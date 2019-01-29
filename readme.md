@@ -4,6 +4,9 @@
 
 **注意: 本項目不包含SCWS PHP 擴展, 你需要先自行安裝才能使用SCWS的分詞功能。**
 
+[官方安裝說明](http://www.xunsearch.com/scws/docs.php#instscws)
+[轉載別人的安裝教學](https://www.jianshu.com/p/c1dbad3a3630)
+
 ## 安裝
 
 ```
