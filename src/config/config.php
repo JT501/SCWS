@@ -1,21 +1,19 @@
 <?php
 return [
 
-	// 分词时所用编码
-	'charset' => 'utf-8',
+    // 分詞時所用編碼
+    'charset' => 'utf-8',
+    // 分詞所用詞典(此處使用utf8的詞典)
+    'dict' => '/usr/local/scws/etc/dict.utf8.xdb',
+    // 加入額外的詞典
+    'add_dict' => '/usr/local/scws/etc/dict_cht.utf8.xdb',
+    // 分詞所用規則
+    'rule' => '/usr/local/etc/rules.utf8.ini',
+    // 分詞前去掉標點符號
+    'ignore' => true,
+    // 是否複式分割，如“中國人”返回“中國＋人＋中國人”三個詞。
+    'multi' => false,
+    // 設定將文字自動以二字分詞法聚合
+    'duality' => false
 
-	// 分词所用词典(此处使用utf8的词典)
-	'dict' => '/usr/local/etc/dict.utf8.xdb',
-
-	// 分词所用规则
-	'rule' => '/usr/local/etc/rules.utf8.ini',
-
-	// 分词前去掉标点符号
-	'ignore' => true,
-
-	// 是否复式分割，如“中国人”返回“中国＋人＋中国人”三个词。
-	'multi' => false,
-
-	// 设定将文字自动以二字分词法聚合
-	'duality' => false
 ];
