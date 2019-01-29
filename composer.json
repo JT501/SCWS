@@ -19,5 +19,15 @@
             "Latrell\\Scws\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Latrell\\Scws\\ScwsServiceProvider"
+            ],
+            "aliases": {
+                "Scws": "Latrell\Scws\Facades\Scws"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
