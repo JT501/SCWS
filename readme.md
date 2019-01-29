@@ -1,37 +1,37 @@
 # SCWS
 
-该项目封装 [简易中文分词系统](https://github.com/hightman/scws) 为 Laravel 拓展包。
+該項目封裝 [簡易中文分詞系統](https://github.com/hightman/scws) 為 Laravel 拓展包。
 
-## 安装
+## 安裝
 
 ```
-composer require hallelujahbaby/scws dev-master
+composer require hallelujahbaby/scws
 ```
 
-更新你的依赖包 ```composer update``` 或者全新安装 ```composer install```。
+更新你的依賴包 ```composer update``` 或者全新安裝 ```composer install```。
 
 ## 使用
 
-要使用本服务提供者，你必须自己注册服务提供者到Laravel服务提供者列表中。
+如你在使用 Laravel 5.5 以下版本，你必須自己註冊服務提供者到Laravel服務提供者列表中。
 
-打开配置文件 `config/app.php`。
+打開配置文件 `config/app.php`。
 
-找到key为 `providers` 的数组，在数组中添加服务提供者。
-
-```php
-    'providers' => [
-        // ...
-        Latrell\Scws\ScwsServiceProvider::class,
-    ]
-```
-
-找到key为 `aliases` 的数组，在数组中注册Facades。
+找到key為 `providers` 的數組，在數組中添加服務提供者。
 
 ```php
-    'aliases' => [
-        // ...
-        'Scws' => Latrell\Scws\Facades\Scws::class,
-    ]
+    'providers' => [
+        // ...
+        Latrell\Scws\ScwsServiceProvider::class,
+    ]
 ```
 
-运行 `php artisan vendor:publish` 命令，发布配置文件到你的项目中。
+找到key為 `aliases` 的數組，在數組中註冊Facades。
+
+```php
+    'aliases' => [
+        // ...
+        'Scws' => Latrell\Scws\Facades\Scws::class,
+    ]
+```
+
+# SCWS
