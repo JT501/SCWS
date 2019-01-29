@@ -1,5 +1,5 @@
 {
-    "name": "vanry/scws",
+    "name": "hallelujahbaby/scws",
     "description": "简易中文分词系统在Laravel的封装包。",
     "keywords": ["Laravel", "SCWS"],
     "homepage": "https://github.com/Latrell/SCWS",
@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "ext-scws": ">=0.2.1",
+        //"ext-scws": ">=0.2.1",
         "illuminate/support": "~5.1"
     },
     "autoload": {
