@@ -2,6 +2,8 @@
 
 該項目封裝 [簡易中文分詞系統](https://github.com/hightman/scws) 為 Laravel 拓展包。
 
+**注意: 本項目不包含SCWS PHP 擴展, 你需要先自行安裝才能使用SCWS的分詞功能。**
+
 ## 安裝
 
 ```
