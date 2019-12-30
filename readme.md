@@ -9,7 +9,7 @@
 ## 安裝
 
 ```
-composer require hallelujahbaby/scws
+composer require JT501/scws
 ```
 
 更新你的依賴包 ```composer update``` 或者全新安裝 ```composer install```。
